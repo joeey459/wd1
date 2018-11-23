@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("Kinsale-banner.jpg");
+}
+/*rgba(66, 134, 244, .8)*/
+body{
+    background-image: url("just-waves.png");
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: lightskyblue;
+}
+footer{
+    background-image: url(blue-footer.jpg);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside{
+    background-color: lightskyblue;
+    display: grid;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin: 1em;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block; /*so the whole padding, margin and text area is clickable */
+    padding: 8px 16px;
+    text-align: center;
+}
+li a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: #42b3f4 solid;
+    background: #42b3f4;
+}
+nav > a {
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+section a{
+     text-decoration: underline;
+     padding: 0;
+    display: inline;
+ }
+section a:hover{
+    text-decoration: underline;
+    padding: 0;
+    display: inline;
+}
+main section{
+    display: grid;
+    box-sizing: border-box;
+    max-height: available;
+}
+section img{
+    border: 2px solid dodgerblue;
+}
+li p{
+    padding: 10px;
+}
+#top-of-shop-bit{
+    margin: 1em;
+    border-bottom: white solid 5px;
+}
+#top-of-acc-bit{
+    margin: 1em;
+    border-bottom: white solid 5px;
+}
+#Kinsale_co-ords > a{
+    color: white;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+#gfc-list{
+
+    text-decoration: underline;
+    border-left: 5px #ffffff solid;
+    margin-left: 1em;
+    display: block;
+    padding: 10px;
+}
+#website-links{
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    margin: auto;
+}
+#twitter_timeline{
+    width: 20%;
+}
+#whats-on-content{
+    width: 70%;
+    height: fit-content;
+    border-bottom: 5px #ffffff solid;
+}
+#whats-on-content > p{
+    border-bottom: 5px #ffffff solid;
+}
+#contact-content{
+    border-bottom: 5px #ffffff solid;
+    margin: 1em;
+}
+#contact-content a{
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+    padding: 1em;
+}
+#social-icons{
+
+}
+#fb-icon-img{
+    height: 32px;
+    width: 32px;
+    border: none;
+}
+#tw-icon-img{
+    height: 32px;
+    width: 32px;
+    border: none;
+}
+.content-box{
+    width: 50%;
+}
+.no-box{
+    border: none;
+}
+.content-box > img {
+    max-width: 100%;
+    margin: auto;
+    border-left: 5px #ffffff solid;
+}
+.content-box > iframe {
+    margin: 1em;
+    padding: 2em;
+    max-width: 100%;
+    border-left: 5px #ffffff solid;
+ }
+.content-box article {
+    border-left: 5px #ffffff solid;
+    text-align: center;
+    margin: 1em;
+}
+.mapouter{
+    margin: auto;
+    border: solid dodgerblue 5px;
+    text-align:right;
+    height:500px;
+    width: 600px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none
+    !important;
+    height:500px;
+    width:600px;
+}
+#top {
+    display: flex;
+    border: none;
+    color: #000;
+}
+@media screen and (max-width: 800px){
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    li a {
+        display: block;
+        color: darkblue;
+        text-align: center;
+        padding: 14px 6px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: gray;
+    }
+    main {
+        box-sizing: border-box;
+    }
+    .content-box{
+        width: 90%;
+    }
+
+}
